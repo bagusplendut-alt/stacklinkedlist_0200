@@ -103,6 +103,11 @@ int main()
         case 3:
             stack.peek();
             break;
+            
         case 4:
             cout << "Exiting program." << endl;
             break;
+        default:
+            cout << "invalid choice. Try again." << endl;
+            break;
+        }
