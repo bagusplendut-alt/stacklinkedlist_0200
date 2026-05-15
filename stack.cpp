@@ -49,3 +49,14 @@ public:
         delete temp;
     }
 
+    void peak()
+    {
+        if (isEmpty())
+        {
+            cout << "List is empty." << endl;
+        }
+        else
+        
+    }
+    
+
