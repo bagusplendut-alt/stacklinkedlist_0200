@@ -49,7 +49,7 @@ public:
         delete temp;
     }
 
-    void peak()
+    void peek()
     {
         if (isEmpty())
         {
@@ -103,7 +103,7 @@ int main()
         case 3:
             stack.peek();
             break;
-            
+
         case 4:
             cout << "Exiting program." << endl;
             break;
@@ -111,3 +111,8 @@ int main()
             cout << "invalid choice. Try again." << endl;
             break;
         }
+
+        cout << endl;
+    }
+    return 0;
+};
